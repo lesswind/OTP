@@ -20,7 +20,6 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 1. Download a copy of each of the things you need above and put them in a folder. The mirrors are alternate links in case the first ones do not work properly.
 2. Copy Decrypt9, and sysUpdater to the `/3ds/` folder of your SD card like any other homebrew application.
 3. Extract the 2.1 firmware pack for your region and place the `updates` folder on the root of your SD card.
-4. Copy `load.bin` and `code.bin` to the root of your SD card.
 5. From sysNAND, get into the Homebrew Launcher through the entrypoint of your choice.
 6. Open Decrypt9.
 7. Following the options on the main menu, backup your sysNAND and your emuNAND (if you have one) to `sysNAND.bin` and `emuNAND.bin` respectively.
