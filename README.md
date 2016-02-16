@@ -32,11 +32,13 @@ New 3DS | Old 3DS | 2DS
 [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/2DS_Spider.md)
 
 ### Firmware MD5 Hashes
+
 USA: 2C938AC7F48C8D1CD8DC00420A7BAC13
-EUR: -
-JAP: -
+EUR: N/A
+JAP: N/A
 
 ## Credits
+
 + AHP_Person for code.bin
 + Normmatt for load.bin
 + yellows8 for answering my questions
