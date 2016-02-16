@@ -18,7 +18,7 @@ This guide will take you through the steps of downgrading to version 2.1 to get 
 
 Once you have your (*and only your, OTPs cannot be shared between 3DSs under any circumstance*) OTP, you can check [here](https://github.com/delebile/arm9loaderhax) for information on arm9loaderhax, an exploit that requires it.
 
-This guide was written by me with the process refined and software developed by the fine folks over at #Cakey on freenode. See the bottom of this page for the full credits, this guide would not exist without them.
+This guide was written by me with the process refined and software developed by the fine folks over at #Cakey on Freenode. See the bottom of this page for the full credits, this guide would not exist without them.
 
 ## Get Started
 
@@ -26,7 +26,24 @@ This guide was written by me with the process refined and software developed by 
 
 New 3DS | Old 3DS | 2DS
 :---: | :---: | :---:
-[With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [~~With Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md) | [~~With Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/2DS_Cubic.md)
-[~~Without Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [~~Without Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md) | [~~Without Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/2DS_Spider.md)
+[With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md) | [~~With Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/2DS_Cubic.md)
+[Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md) | [~~Without Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/2DS_Spider.md)
 
 ## Credits
++ AHP_Person for code.bin
++ Normmatt for load.bin
++ yellows8 for answering my questions
++ b1l1s (he's back baby) for writing the 2xrsa implementation
++ mid-kid for letting us use his channel
++ Gelex for testing and debugging
++ dank101 for testing
++ Vappy for emotional support
++ fox8091 for answering questions
++ Psi-Hate for testing
++ Shadowtrance for answering questions
++ icecream for testing
++ s_99 for emotional support
++ dukesrg for hosting
++ all of #Cakey on Freenode for being awesome
+
+*If I forgot you here, contact me and I'll add your name.*

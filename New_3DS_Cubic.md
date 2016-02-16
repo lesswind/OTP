@@ -103,7 +103,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 4. Reinsert your SD card into your 3DS.
 5. Boot the 3DS back up.
 6. Insert your game that contains an update to a version between 4.0 and 9.2
-7. Disable all network connections on the 3DS.
+7. Disable all network connections on the 3DS and [delete any predownloaded updates](https://gbatemp.net/threads/381489/).
 8. Launch the game.
 9. When prompted, press (A) to update the console.
 10. When the 3DS has rebooted launch `Launcher.dat` by either scanning the QR code linked above with the camera (L and R on the home menu) or manually going to http://dukesrg.no-ip.org/3ds/ and pressing launch.
