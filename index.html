@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>OTP by Plailect</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/Plailect/OTP">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/Plailect/OTP/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/Plailect/OTP/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>OTP</h1>
+          <p>Downgrade to v2.1 on all regions for both o3DS and n3DS to get your console specific OTP.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Plailect">Plailect</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="otp-guide" class="anchor" href="#otp-guide" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OTP Guide</h1>
+
+<p><em>While not required in a technical sense, a hardmod is</em> <strong>strongly</strong> <em>recommended.</em></p>
+
+<p>For now, this guide is only <em>theoretically</em> possible without a hardmod. Quite a bit more testing will be needed before this is even relatively safe to use without one.</p>
+
+<p>If you are going to attempt this without one (do not - <em>random</em> <strong>hard bricks</strong> can and will happen, sometimes to a fault not of your own), follow all instructions to the letter and hope you are incredibly lucky. If you try this without a hardmod, do not complain when you end up with a multiple hundred dollar paperweight.</p>
+
+<p><strong>Seriously, do not attempt without a hardmod.</strong></p>
+
+<h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>This is, to the best of my knowledge, the first public comprehensive guide to getting the console specific OTP for the 3DS.</p>
+
+<p>This guide will take you through the steps of downgrading to version 2.1 to get the OTP, which was blocked from our reach with the release of 3.X (without some hardware trickery).</p>
+
+<p><strong>This guide will work on New 3DS, Old 3DS, and <del>2DS</del> (coming soon) in the U, <del>E</del>, and <del>J</del> regions (coming soon). The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such <em>cannot</em> downgrade far enough to use this guide.</strong></p>
+
+<p>C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.</p>
+
+<p>Once you have your (<em>and only your, OTPs cannot be shared between 3DSs under any circumstance</em>) OTP, you can check <a href="https://github.com/delebile/arm9loaderhax">here</a> for information on arm9loaderhax, an exploit that requires it.</p>
+
+<p>This guide was written by me with the process refined and software developed by the fine folks over at #Cakey on Freenode. See the bottom of this page for the full credits, this guide would not exist without them.</p>
+
+<h2>
+<a id="get-started" class="anchor" href="#get-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Get Started</h2>
+
+<p><em>Click the appropriate link below:</em></p>
+
+<table>
+<thead>
+<tr>
+<th align="center">New 3DS</th>
+<th align="center">Old 3DS</th>
+<th align="center">2DS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md">With Cubic Ninja</a></td>
+<td align="center"><a href="https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md">With Cubic Ninja</a></td>
+<td align="center"><a href="https://github.com/Plailect/OTP/blob/master/2DS_Cubic.md">With Cubic Ninja</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md">Without Cubic Ninja</a></td>
+<td align="center"><a href="https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md">Without Cubic Ninja</a></td>
+<td align="center"><a href="https://github.com/Plailect/OTP/blob/master/2DS_Spider.md">Without Cubic Ninja</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+
+<ul>
+<li>AHP_Person for code.bin</li>
+<li>Normmatt for load.bin</li>
+<li>yellows8 for answering my questions</li>
+<li>b1l1s (he's back baby) for writing the 2xrsa implementation</li>
+<li>mid-kid for letting us use his channel</li>
+<li>Gelex for testing and debugging</li>
+<li>dank101 for testing</li>
+<li>Vappy for emotional support</li>
+<li>fox8091 for answering questions</li>
+<li>Psi-Hate for testing</li>
+<li>Shadowtrance for answering questions</li>
+<li>icecream for testing</li>
+<li>s_99 for emotional support</li>
+<li>dukesrg for hosting</li>
+<li>all of #Cakey on Freenode for being awesome</li>
+</ul>
+
+<p><em>If I forgot you here, contact me and I'll add your name.</em></p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
