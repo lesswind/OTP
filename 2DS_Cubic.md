@@ -4,7 +4,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 
 **THIS IS COMPLETELY UNTESTED - THE ONLY AVAILABLE REGION ATM IS US**
 
-**The steps here are the same as on the old 3ds. You must have gone through initial format, do not format on a version below 6.0.0 or you will not be able to complete the setup process.**
+**The steps here are the same as on the old 3ds. You must have gone through initial setup, do not format on a version below 6.0.0 or you will not be able to complete the setup process.**
 
 ## What You Need
 
