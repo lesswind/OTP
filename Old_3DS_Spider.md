@@ -31,7 +31,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 ### Section II - Downgrading
 1. Using the entrypoint of your choice, get into the Homebrew Launcher **in sysNAND**.
 2. Open sysUpdater.
-3. Press (Y) to downgrade emuNAND to v2.1.
+3. Press (Y) to downgrade sysNAND to v2.1.
 4. Reboot into sysNAND
 5. If there is a black screen on reboot, try deleting the `extdata` folder in `/Nintendo 3DS/XXX/XXX/` on your SD card.
 
