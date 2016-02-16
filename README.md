@@ -28,8 +28,8 @@ This guide was written by me with the process refined and software developed by 
 
 New 3DS | Old 3DS | 2DS
 :---: | :---: | :---:
-[With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md) | [~~With Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/2DS_Cubic.md)
-[Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md) | [~~Without Cubic Ninja~~](https://github.com/Plailect/OTP/blob/master/2DS_Spider.md)
+[With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/2DS_Cubic.md)
+[Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/2DS_Spider.md)
 
 ## Credits
 + AHP_Person for code.bin
