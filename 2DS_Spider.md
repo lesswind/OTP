@@ -9,8 +9,9 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 ## What You Need
 
 * The 2.1 firmware pack for your region: ([U](https://mega.nz/#!IgUy1aJR!bDaYIBWLH6QePjh-buP0_SmXEwxZC0gEkKu4cbtxtNE) - [E]() - [J]()) (Mirrors: [U](https://drive.google.com/file/d/0BzPfvjeuhqoDQzdaWWtDclZmaHM/view?usp=sharing) - [E]() - [J]())
-* [Decrypt9WIP](https://github.com/d0k3rypt9WIP/releases) ([Mirror](https://mega.nz/#!MgdQWYpK!CbB-EY2mPtpzHFL9Rj6GNTOpIorw6QQKdWjaL9T1H7Q)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDazFkbG5xMTV0d1U/view?usp=sharing))
-* [`arm11.bin`](httpsld 3//github.com/profi200/sysUpdater/releases) ([Mirror](https://mega.nz/#!NkcEFaAD!x8mnHtm3xOrQ1fuXawGa2pipyWju6xdgaB04IyMcW3s)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDaHUxbExoZ1dRclU/view?usp=sharing))
+* [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases) ([Mirror](https://mega.nz/#!MgdQWYpK!CbB-EY2mPtpzHFL9Rj6GNTOpIorw6QQKdWjaL9T1H7Q)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDazFkbG5xMTV0d1U/view?usp=sharing))
+* [`arm11.bin`](https://mega.nz/#!ckcXxR4C!ISv4heZKgiIO1ZmAuk8AAxecET6SbXpW7z4PePiUlwY) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZGdKVEJUT1c0TXc/view?usp=sharing))
+* [sysUpdater](https://github.com/profi200/sysUpdater/releases) ([Mirror](https://mega.nz/#!NkcEFaAD!x8mnHtm3xOrQ1fuXawGa2pipyWju6xdgaB04IyMcW3s)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDaHUxbExoZ1dRclU/view?usp=sharing))
 * [Launcher.dat QR Code](https://chart.googleapis.com/chart?cht=qr&chs=220x220&chl=http://dukesrg.no-ip.org/3ds/rop?GW147%20Safari/5373.dat%26Launcher.dat) ([Mirror](http://imgur.com/eIY7eEY)) ([Mirror](https://mega.nz/#!VgkDBIha!szD3vVQ1dwTAxx9cRG8AJYCrsLSg9IFKmsasPxHgy0E))
 * Any game cart that contains an update version between 4.0 and 9.2 (See [3dsdb](http://www.3dsdb.com/) for which carts contain what updates)
 * This guide assumes you are familiar with 3DS homebrew.
@@ -41,7 +42,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 1. Copy `arm11.bin` to the root of your SD card.
 2. Go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3ds.
 3. Wait for the flashes.
-4. Check your `a9f.bin` on the SD card. If the exploit was successful then it should no longer be empty.
+4. Check for a file called `a9f.bin` on the SD card. If the exploit was successful then it should exist.
 5. Remove your SD card and copy `a9f.bin` to your computer.
 6. Backup `a9f.bin` somewhere safe.
 
