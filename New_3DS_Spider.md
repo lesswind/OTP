@@ -11,7 +11,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 * 3DSFAT16tool: ([Windows](https://github.com/d0k3/3DSFAT16tool/releases) - [Mirror](https://mega.nz/#!dk0UkZJa!NK9EIjyIigXQLmyTZqMAIUBZ7sN80NhFsXRmX3NMgTQ)) or ([Linux/Mac](https://mega.nz/#!poUVHSaK!tDMJ4QjV-E71o0kDFqR6p8OEyvTMMPHe4Cl4j98Dovg) - [Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDdHlydEdMUmowMWs/view?usp=sharing))
 * [Decrypt9WIP](https://github.com/d0k3rypt9WIP/releases) ([Mirror](https://mega.nz/#!MgdQWYpK!CbB-EY2mPtpzHFL9Rj6GNTOpIorw6QQKdWjaL9T1H7Q)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDazFkbG5xMTV0d1U/view?usp=sharing))
 * [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases) ([Mirror](https://mega.nz/#!Yg8iDQqQ!ZMO3o1HETyIroTWX6xZ3wDT03dyyOus1CC32KHY69iQ)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDTGsxX3hDNFI0QU0/view?usp=sharing))
-* [`arm9.bin`]() and [`arm11.bin`]() (Mirrors: [`arm9.bin`]() - [`arm11.bin`]())
+* [`arm11.bin`](https://mega.nz/#!ckcXxR4C!ISv4heZKgiIO1ZmAuk8AAxecET6SbXpW7z4PePiUlwY) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZGdKVEJUT1c0TXc/view?usp=sharing))
 * [`load.bin`](https://mega.nz/#!x4V20LbD!y4pSniu50498hDxeArsU-r8DkrL6NrUiiqEgz3MfHH4) and [`code.bin`](https://mega.nz/#!JxMUlbBD!4j1P9Obt8utwZhMwMon3iwlIMXlHw0SRAfVrto8y3Ro) (Mirrors: [`load.bin`](https://drive.google.com/file/d/0BzPfvjeuhqoDeF9NbVZOTjdKRlU/view?usp=sharing) - [`code.bin`](https://drive.google.com/file/d/0BzPfvjeuhqoDdjBMRGV5TW85aVk/view?usp=sharing))
 * [sysUpdater](https://github.com/profi200/sysUpdater/releases) ([Mirror](https://mega.nz/#!NkcEFaAD!x8mnHtm3xOrQ1fuXawGa2pipyWju6xdgaB04IyMcW3s)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDaHUxbExoZ1dRclU/view?usp=sharing))
 * [TinyFormat](https://github.com/javimadgit/TinyFormat/releases) ([Mirror](https://mega.nz/#!cssQyQZI!84YufkNZ-3ZrhWHNVT8GxtWiDF61zgNqPyCeFBiXGJA)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDTkhqOXdOZS1qdDg/view?usp=sharing))
@@ -88,7 +88,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 27. Reboot.
 
 ### Section III - Getting the OTP
-1. Copy `arm9.bin` and `arm11.bin` to the root of your SD card.
+1. Copy `arm11.bin` to the root of your SD card.
 2. Go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3ds.
 3. Wait for the flashes.
 4. Check your `OTP.bin` on the SD card. If the exploit was successful then it should no longer be empty.
