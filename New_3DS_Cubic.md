@@ -65,14 +65,14 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 13. Move your bricked 2.1 `emuNAND.bin`, `nand.fat16_0x4_.xorpad`, and `nand.fat16_0x5_.xorpad` to the same folder as 3DSFAT16tool.
 14. In a Command Prompt or Terminal window, `cd` into this folder.
 15. Windows:
- + `3DSFAT16tool.exe -d -o emuNAND.bin ctr.bin nand.fat16_0x5_xorpad`
- + `3DSFAT16tool.exe -i -n emuNAND.bin ctr.bin nand.fat16_0x4_xorpad`
+ + `3DSFAT16tool.exe -d -n emuNAND.bin ctr.bin nand.fat16_0x5_xorpad`
+ + `3DSFAT16tool.exe -i -o emuNAND.bin ctr.bin nand.fat16_0x4_xorpad`
  + `mv emuNAND.bin sysNAND.bin`
  + `rem ctr.bin`
 
 16. Mac/Linux:
- + `./3DSFAT16tool -d -o emuNAND.bin ctr.bin nand.fat16_0x5_xorpad`
- + `./3DSFAT16tool -i -n emuNAND.bin ctr.bin nand.fat16_0x4_xorpad`
+ + `./3DSFAT16tool -d -n emuNAND.bin ctr.bin nand.fat16_0x5_xorpad`
+ + `./3DSFAT16tool -i -o emuNAND.bin ctr.bin nand.fat16_0x4_xorpad`
  + `mv emuNAND.bin sysNAND.bin`
  + `rm ctr.bin`
 
