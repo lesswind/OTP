@@ -2,16 +2,16 @@
 
 This is a sub section of the main guide [here](https://github.com/Plailect/OTP/blob/master/README.md). Please read that first before continuing here.
 
-**THIS IS COMPLETELY UNTESTED - THE ONLY AVAILABLE REGION ATM IS US**
+**Both US and EUR Regions are now available! JAP coming soon!**
 
 ## What You Need
 
-* The 2.1 firmware pack for your region: ([U](https://mega.nz/#!IgUy1aJR!bDaYIBWLH6QePjh-buP0_SmXEwxZC0gEkKu4cbtxtNE) - [E]() - [J]()) (Mirrors: [U](https://drive.google.com/file/d/0BzPfvjeuhqoDQzdaWWtDclZmaHM/view?usp=sharing) - [E]() - [J]())
+* The 2.1 firmware pack for your region: ([U](https://mega.nz/#!IgUy1aJR!bDaYIBWLH6QePjh-buP0_SmXEwxZC0gEkKu4cbtxtNE) - [E](https://mega.nz/#!04UAUIbb!SXLHMn2Msn7i4yud2qLrIa6_JrrAbndfRQECbtfRUKQ) - J) (Mirrors: [U](https://drive.google.com/file/d/0BzPfvjeuhqoDQzdaWWtDclZmaHM/view?usp=sharing) - [E](https://drive.google.com/file/d/0BzPfvjeuhqoDMFVQTXc5ZEZEWjg/view?usp=sharing) - J)
 * A Hex Editor: ([HxD](https://mh-nexus.de/en/downloads.php)) or ([Bless](http://home.gna.org/bless/downloads.html))
 * 3DSFAT16tool v2: ([Windows](https://mega.nz/#!d8dCALiT!BlGQJk0WgoiTZ_ydbI3HUeEe8b-pWq0WbuSRLBS6zKE) - [Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDUGp0em1RMUhBLWs/view?usp=sharing)) or ([Linux/Mac](https://mega.nz/#!898nHS6I!Wg2XLvKNYKngXen0o_nyuKfZ3K_tWl5og6zUSmSK2Zk) - [Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDYWNpX0dYblhPTkk/view?usp=sharing))
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I) ([Mirror](http://www.gamestop.com/nintendo-3ds/games/cubic-ninja/90784))
 * [Cubic Ninja QR Code](http://imgur.com/W4I543m) ([Mirror](https://mega.nz/#!t5NgjbhS!7AwYLfchxK4pUITXI21DRr6JQ8Y41zhqc0IPKUgs7G4)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDQ0pMblVUSng0Vk0/view?usp=sharing))
-* [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases) ([Mirror](https://mega.nz/#!MgdQWYpK!CbB-EY2mPtpzHFL9Rj6GNTOpIorw6QQKdWjaL9T1H7Q)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDazFkbG5xMTV0d1U/view?usp=sharing))
+* [Decrypt9WIP](https://mega.nz/#!kl0xyQjI!NrUoYYPGbQGsWtsVDIVlJKYQhqqcF9Z0lqWLWmnSeeA) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZVROOVhrcG9HSEE/view?usp=sharing))
 * [EmuNAND9](https://github.com/d0k3/EmuNAND9/releases) ([Mirror](https://mega.nz/#!Yg8iDQqQ!ZMO3o1HETyIroTWX6xZ3wDT03dyyOus1CC32KHY69iQ)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDTGsxX3hDNFI0QU0/view?usp=sharing))
 * [`load.bin`](https://mega.nz/#!x4V20LbD!y4pSniu50498hDxeArsU-r8DkrL6NrUiiqEgz3MfHH4) and [`code.bin`](https://mega.nz/#!JxMUlbBD!4j1P9Obt8utwZhMwMon3iwlIMXlHw0SRAfVrto8y3Ro) (Mirrors: [`load.bin`](https://drive.google.com/file/d/0BzPfvjeuhqoDeF9NbVZOTjdKRlU/view?usp=sharing) - [`code.bin`](https://drive.google.com/file/d/0BzPfvjeuhqoDdjBMRGV5TW85aVk/view?usp=sharing))
 * [sysUpdater](https://github.com/profi200/sysUpdater/releases) ([Mirror](https://mega.nz/#!NkcEFaAD!x8mnHtm3xOrQ1fuXawGa2pipyWju6xdgaB04IyMcW3s)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDaHUxbExoZ1dRclU/view?usp=sharing))

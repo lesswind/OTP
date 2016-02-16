@@ -14,7 +14,7 @@ This is, to the best of my knowledge, the first public comprehensive guide to ge
 
 This guide will take you through the steps of downgrading to version 2.1 to get the OTP, which was blocked from our reach with the release of 3.X (without some hardware trickery).
 
-**This guide will work on New 3DS, Old 3DS, and 2DS in the U, ~~E~~, and ~~J~~ regions (coming soon). The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to use this guide.**
+**This guide will work on New 3DS, Old 3DS, and 2DS in the U, E, and ~~J~~ regions (coming soon). The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to use this guide.**
 
 C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.
 
@@ -26,14 +26,15 @@ This guide was written by me with the process refined and software developed by 
 
 *Click the appropriate link below:*
 
-New 3DS | Old 3DS | 2DS
-:---: | :---: | :---:
-[With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/2DS_Cubic.md)
-[Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/2DS_Spider.md)
+New 3DS | Old 3DS / 2DS
+:---: | :---:
+[With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md)
+[Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md)
 
 ### 2.1 Firmware Zip Sha256Sum
 
 USA: f2532cebfc10ca4205739b9904471f4edd3c0d33a4ce5c39501a8e316c9c40d9
+EUR: 6a2759a9f082da3368bd98bc7ac2c41fe995d7705acf22252215ed183dd6247a
 
 ## Credits
 
