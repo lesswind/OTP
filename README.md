@@ -18,7 +18,7 @@ This guide will take you through the steps of downgrading to version 2.1 to get 
 
 C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.
 
-Once you have your (*and only your, OTPs cannot be shared between 3DSs under any circumstance*) OTP, you can check [here](https://github.com/delebile/arm9loaderhax) for information on arm9loaderhax, an exploit that requires it.
+Once you have your (*and only your, OTPs cannot be shared between 3DSs under any circumstance*) OTP, you can check [here](https://github.com/delebile/arm9loaderhax) for information on arm9loaderhax, an exploit that requires it. **Arm9loaderhax will not do anything on its own, please wait for the release of software to work with this exploit.**
 
 This guide was written by me with the process refined and software developed by the fine folks over at #Cakey on Freenode. See the bottom of this page for the full credits, this guide would not exist without them.
 
