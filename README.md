@@ -14,7 +14,7 @@ This is, to the best of my knowledge, the first public comprehensive guide to ge
 
 This guide will take you through the steps of downgrading to version 2.1 to get the OTP, which was blocked from our reach with the release of 3.X (without some hardware trickery).
 
-**This guide will work on New 3DS, Old 3DS, and ~~2DS~~ (coming soon) in the U, E, and J regions. The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to use this guide.**
+**This guide will work on New 3DS, Old 3DS, and ~~2DS~~ (coming soon) in the U, ~~E~~, and ~~J~~ regions (coming soon). The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to use this guide.**
 
 C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.
 
