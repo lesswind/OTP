@@ -31,9 +31,9 @@ New 3DS | Old 3DS | 2DS
 [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/2DS_Cubic.md)
 [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/2DS_Spider.md)
 
-### Firmware MD5 Hashes
+### 2.1 Firmware Zip Sha256Sum
 
-USA: 2C938AC7F48C8D1CD8DC00420A7BAC13
+USA: f2532cebfc10ca4205739b9904471f4edd3c0d33a4ce5c39501a8e316c9c40d9
 
 ## Credits
 
