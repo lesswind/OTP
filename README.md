@@ -34,8 +34,6 @@ New 3DS | Old 3DS | 2DS
 ### Firmware MD5 Hashes
 
 USA: 2C938AC7F48C8D1CD8DC00420A7BAC13
-EUR: N/A
-JAP: N/A
 
 ## Credits
 
