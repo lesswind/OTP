@@ -69,7 +69,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
  + `3DSFAT16tool.exe -i -n emuNAND.bin ctr.bin nand.fat16_0x4_xorpad`
  + `mv emuNAND.bin sysNAND.bin`
  + `rem ctr.bin`
-
+ + 
 16. Mac/Linux:
  + `./3DSFAT16tool -d -o emuNAND.bin ctr.bin nand.fat16_0x5_xorpad`
  + `./3DSFAT16tool -i -n emuNAND.bin ctr.bin nand.fat16_0x4_xorpad`
