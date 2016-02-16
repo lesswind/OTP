@@ -41,9 +41,9 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 1. Copy `arm11.bin` to the root of your SD card.
 2. Go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3ds.
 3. Wait for the flashes.
-4. Check your `OTP.bin` on the SD card. If the exploit was successful then it should no longer be empty.
-5. Remove your SD card and copy `OTP.bin` to your computer.
-6. Backup `OTP.bin` somewhere safe.
+4. Check your `a9f.bin` on the SD card. If the exploit was successful then it should no longer be empty.
+5. Remove your SD card and copy `a9f.bin` to your computer.
+6. Backup `a9f.bin` somewhere safe.
 
 ### Section IV - Restoring the System
 1. Copy Decrypt9's `Launcher.dat` to the root of your SD card.

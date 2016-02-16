@@ -80,19 +80,18 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 20. Select everything from offset 0x200 to the beginning of the file.
 21. Paste to replace this selection with the contents of `NCSD_header_o3ds.bin`.
 22. Save the file and exit. Copy the modified `sysNAND.bin` to `/Decrypt9/` on your SD card.
-23. Create a new blank file called `OTP.bin` on the root of your SD card.
-24. Reinsert your SD card into your 3DS and press (B).
-25. Following the options on the main menu, restore your sysNAND from `sysNAND.bin`.
-26. Cross your fingers.
-27. Reboot.
+23. Reinsert your SD card into your 3DS and press (B).
+24. Following the options on the main menu, restore your sysNAND from `sysNAND.bin`.
+25. Cross your fingers.
+26. Reboot.
 
 ### Section III - Getting the OTP
 1. Copy `arm11.bin` to the root of your SD card.
 2. Go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3ds.
 3. Wait for the flashes.
-4. Check your `OTP.bin` on the SD card. If the exploit was successful then it should no longer be empty.
-5. Remove your SD card and copy `OTP.bin` to your computer.
-6. Backup `OTP.bin` somewhere safe.
+4. Check your `a9f.bin` on the SD card. If the exploit was successful then it should no longer be empty.
+5. Remove your SD card and copy `a9f.bin` to your computer.
+6. Backup `a9f.bin` somewhere safe.
 
 ### Section IV - Restoring the System
 1. Copy Decrypt9's `Launcher.dat` to the root of your SD card.
