@@ -31,8 +31,11 @@ New 3DS | Old 3DS / 2DS
 [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md)
 [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md)
 
-USA: f2532cebfc10ca4205739b9904471f4edd3c0d33a4ce5c39501a8e316c9c40d9
-EUR: 73b0e7764c177e2989b37e6dded11a8b33de4ffcb5f9c449b505a663b833da55
+Region | SHA-256
+:---: | :---:
+USA | f2532cebfc10ca4205739b9904471f4edd3c0d33a4ce5c39501a8e316c9c40d9
+EUR | 73b0e7764c177e2989b37e6dded11a8b33de4ffcb5f9c449b505a663b833da55
+JAP | N/A
 
 ## Credits
 
