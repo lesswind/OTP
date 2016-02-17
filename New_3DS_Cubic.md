@@ -6,7 +6,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 
 ## What You Need
 
-* The 2.1 firmware pack for your region: ([U](https://mega.nz/#!IgUy1aJR!bDaYIBWLH6QePjh-buP0_SmXEwxZC0gEkKu4cbtxtNE) - [E](https://mega.nz/#!04UAUIbb!SXLHMn2Msn7i4yud2qLrIa6_JrrAbndfRQECbtfRUKQ) - J) (Mirrors: [U](https://drive.google.com/file/d/0BzPfvjeuhqoDQzdaWWtDclZmaHM/view?usp=sharing) - [E](https://drive.google.com/file/d/0BzPfvjeuhqoDMFVQTXc5ZEZEWjg/view?usp=sharing) - J)
+* The 2.1 firmware pack for your region: ([U](https://mega.nz/#!IgUy1aJR!bDaYIBWLH6QePjh-buP0_SmXEwxZC0gEkKu4cbtxtNE) - [E](https://mega.nz/#!cx1H1ZKb!sNm4Q_qcMyhHld8THhWdAWyvpjbpuFCIpWL_DXF_j9Y) - J) (Mirrors: [U](https://drive.google.com/file/d/0BzPfvjeuhqoDQzdaWWtDclZmaHM/view?usp=sharing) - [E](https://drive.google.com/file/d/0BzPfvjeuhqoDanM1TnpmdWdGaTQ/view?usp=sharing) - J)
 * A Hex Editor: ([HxD](https://mh-nexus.de/en/downloads.php)) or ([Bless](http://home.gna.org/bless/downloads.html))
 * 3DSFAT16tool v2: ([Windows](https://mega.nz/#!d8dCALiT!BlGQJk0WgoiTZ_ydbI3HUeEe8b-pWq0WbuSRLBS6zKE) - [Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDUGp0em1RMUhBLWs/view?usp=sharing)) or ([Linux/Mac](https://mega.nz/#!898nHS6I!Wg2XLvKNYKngXen0o_nyuKfZ3K_tWl5og6zUSmSK2Zk) - [Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDYWNpX0dYblhPTkk/view?usp=sharing))
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I) ([Mirror](http://www.gamestop.com/nintendo-3ds/games/cubic-ninja/90784))
@@ -18,7 +18,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 * [TinyFormat](https://github.com/javimadgit/TinyFormat/releases) ([Mirror](https://mega.nz/#!cssQyQZI!84YufkNZ-3ZrhWHNVT8GxtWiDF61zgNqPyCeFBiXGJA)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDTkhqOXdOZS1qdDg/view?usp=sharing))
 * [The NCSD Header from an Old 3DS](https://mega.nz/#!8sdTiSSZ!BRY6MCCSsYV3gml3r2yKZIzeWgIW7-g_R5rrqqEFxyA) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDT2dEeGJxZEFHZkk/view?usp=sharing))
 * [Launcher.dat QR Code](https://chart.googleapis.com/chart?cht=qr&chs=220x220&chl=http://dukesrg.no-ip.org/3ds/rop?GW147%20Safari/5373.dat%26Launcher.dat) ([Mirror](http://imgur.com/eIY7eEY)) ([Mirror](https://mega.nz/#!VgkDBIha!szD3vVQ1dwTAxx9cRG8AJYCrsLSg9IFKmsasPxHgy0E))
-* Any other game cart (*read: not Cubic Ninja*) that contains an update version between 4.0 and 9.2 (See [3dsdb](http://www.3dsdb.com/) for which carts contain what updates)
+* Any other game cart (*read: not Cubic Ninja*) that contains an update version between 4.0 and (possibly 6.1? further testing needed to confirm exact version limit) (See [3dsdb](http://www.3dsdb.com/) for which carts contain what updates)
 * This guide assumes you are familiar with 3DS homebrew.
 * This guide assumes you are on sysNAND version 9.2
 * This guide assumes you have a working emuNAND and CFW (such as [CakesFW](https://github.com/mid-kid/CakesForeveryWan), [ReiNand](https://github.com/Reisyukaku/ReiNand), or [rxTools](https://github.com/roxas75/rxTools)).
@@ -102,7 +102,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 3. Copy your original `sysNAND.bin` and `emuNAND.bin` backups to `/Decrypt9/`.
 4. Reinsert your SD card into your 3DS.
 5. Boot the 3DS back up.
-6. Insert your game that contains an update to a version between 4.0 and 9.2
+6. Insert your game that contains an update to a version between 4.0 and (possibly 6.1? further testing needed to confirm exact version limit)
 7. Disable all network connections on the 3DS and [delete any predownloaded updates](https://gbatemp.net/threads/381489/).
 8. Launch the game.
 9. When prompted, press (A) to update the console.

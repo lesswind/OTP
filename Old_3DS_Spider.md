@@ -8,7 +8,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 
 ## What You Need
 
-* The 2.1 firmware pack for your region: ([U](https://mega.nz/#!IgUy1aJR!bDaYIBWLH6QePjh-buP0_SmXEwxZC0gEkKu4cbtxtNE) - [E](https://mega.nz/#!04UAUIbb!SXLHMn2Msn7i4yud2qLrIa6_JrrAbndfRQECbtfRUKQ) - J) (Mirrors: [U](https://drive.google.com/file/d/0BzPfvjeuhqoDQzdaWWtDclZmaHM/view?usp=sharing) - [E](https://drive.google.com/file/d/0BzPfvjeuhqoDMFVQTXc5ZEZEWjg/view?usp=sharing) - J)
+* The 2.1 firmware pack for your region: ([U](https://mega.nz/#!IgUy1aJR!bDaYIBWLH6QePjh-buP0_SmXEwxZC0gEkKu4cbtxtNE) - [E](https://mega.nz/#!cx1H1ZKb!sNm4Q_qcMyhHld8THhWdAWyvpjbpuFCIpWL_DXF_j9Y) - J) (Mirrors: [U](https://drive.google.com/file/d/0BzPfvjeuhqoDQzdaWWtDclZmaHM/view?usp=sharing) - [E](https://drive.google.com/file/d/0BzPfvjeuhqoDanM1TnpmdWdGaTQ/view?usp=sharing) - J)
 * [Decrypt9WIP](https://mega.nz/#!kl0xyQjI!NrUoYYPGbQGsWtsVDIVlJKYQhqqcF9Z0lqWLWmnSeeA) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZVROOVhrcG9HSEE/view?usp=sharing))
 * [`arm11.bin`](https://mega.nz/#!ckcXxR4C!ISv4heZKgiIO1ZmAuk8AAxecET6SbXpW7z4PePiUlwY) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDZGdKVEJUT1c0TXc/view?usp=sharing))
 * [sysUpdater](https://github.com/profi200/sysUpdater/releases) ([Mirror](https://mega.nz/#!NkcEFaAD!x8mnHtm3xOrQ1fuXawGa2pipyWju6xdgaB04IyMcW3s)) ([Mirror](https://drive.google.com/file/d/0BzPfvjeuhqoDaHUxbExoZ1dRclU/view?usp=sharing))
