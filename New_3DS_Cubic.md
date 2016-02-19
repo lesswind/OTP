@@ -37,6 +37,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 ### Section II - Downgrading
 3. Copy all files from `New_3DS_Cubic_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 1. Boot your 3DS into emuNAND using the CFW of your choice.
+2. **Make sure your wifi is on, you will not be able to toggle it in 2.1.**
 2. Using the CIA Manager of your choice of your choice, install TinyFormat.cia **on emuNAND**.
 3. Open TinyFormat **on emuNAND**.
 4. Press (Y) to format emuNAND.
