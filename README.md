@@ -1,4 +1,4 @@
-# OTP Guide - r2
+# OTP Guide - R2
 
 *While not a requirement anymore, a hardmod is still recommended.*
 
