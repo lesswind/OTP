@@ -53,6 +53,8 @@ Old_3DS_Spider_E | d4d9ca707f3ee1dbab323e625e19335d740b567811f52ccc660353093f6fb
 Old_3DS_Spider_J | f07c8c2dd118756c5b86eca2c4cbd9da37299bdee1d8c45a799d375c42135c5d
 Old_3DS_Spider_U | b78380fb5653efd8fa02627b73ff9b4e41a69765175cb5b5d8c4f3f95362887b
 
+**SHA-256s are out of date right now!**
+
 ## Credits
 
 + AHP_Person for code.bin
