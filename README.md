@@ -69,6 +69,7 @@ Old_3DS_Spider_U | b78380fb5653efd8fa02627b73ff9b4e41a69765175cb5b5d8c4f3f953628
 + icecream for testing
 + s_99 for emotional support
 + dark_samus for testing
++ Urbanshadow for fixing my python script
 + dukesrg for hosting
 + all of #Cakey on Freenode for being awesome
 

@@ -16,23 +16,16 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 ## Instructions
 ### Section I - Prep Work
 1. Download the all-in-one pack `.zip` for your region.
-2. Extract the `New_3DS_Cubic_[U/E/J]/` folder from the `.zip` to somewhere on your computer.
-3. Copy all files from `New_3DS_Cubic_[U/E/J]/Section_I/Copy_To_SD_Card/` to your SD card. Replace any existing files.
+2. Extract the `New_3DS_Spider_[U/E/J]/` folder from the `.zip` to somewhere on your computer.
+3. Copy all files from `New_3DS_Spider_[U/E/J]/Section_I/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 5. From sysNAND, get into the Homebrew Launcher through the entrypoint of your choice.
 6. Open Decrypt9.
 7. Following the options on the main menu, backup your sysNAND and your emuNAND to `sysNAND.bin` and `emuNAND.bin` respectively.
 8. From Decrypt9's main menu, select "XORpad Generator Options."
-9. Follow the options to dump "CTRNAND Padgen" to `nand.fat16.xorpad`.
+9. Follow the options to dump "CTRNAND Padgen" to `nand.fat16.xorpad` and "CTRNAND Padgen 0x4" to `nand.fat16.0x4.xorpad`
 10. Press (Select) on the main menu to eject your SD card.
-11. Put your SD card in your computer, then rename `nand.fat16.xorpad` to `nand.fat16_0x5_.xorpad` on the root of your SD card.
-12. Copy over `sysNAND.bin`, `emuNAND.bin`, and `nand.fat16_0x5_.xorpad` from the root of your SD card to `New_3DS_Cubic_[U/E/J]/Section_I/Backup/`.
-13. Delete `sysNAND.bin`, `emuNAND.bin`, and `nand.fat16_0x5_.xorpad` from the root of your SD card, then reinsert into your 3DS.
-14. Press (B) then go to "XORpad Generator Options" once more. Follow the options to dump "CTRNAND Padgen 0x4" to `nand.fat16.xorpad`.
-10. Press (Select) on the main menu to eject your SD card.
-11. Put your SD card in your computer, then rename `nand.fat16.xorpad` to `nand.fat16_0x4_.xorpad` on the root of your SD card.
-12. Copy over `nand.fat16_0x4_.xorpad` from the root of your SD card to `New_3DS_Cubic_[U/E/J]/Section_I/Backup/`.
-13. Delete `nand.fat16_0x4_.xorpad` from the root of your SD card.
-18. Copy all files from your SD card into `New_3DS_Cubic_[U/E/J]/Section_I/Backup/SD_Backup` on your computer.
+11. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, `nand.fat16.xorpad`, and `nand.fat16.0x4.xorpad` from the root of your SD card to `New_3DS_Spider_[U/E/J]/Section_I/Backup/`.
+18. Copy all files from your SD card into `New_3DS_Spider_[U/E/J]/Section_I/Backup/SD_Backup` on your computer.
 
 ### Section II - Downgrading
 3. Copy all files from `New_3DS_Cubic_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
