@@ -8,7 +8,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 
 ## What You Need
 
-* The all-in-one pack for your region: ([U](https://mega.nz/#!pkd3lZoa!ps8CyfDpETRIMfE8o2aNc67YyTjTXYmAJrhKjrro33U) - [E](https://mega.nz/#!lsNTlTra!Fus2_c9vTbJIGp3i6ngHWbCqqpC77iiZq89BzgRJQY0) - [J](https://mega.nz/#!ps1H1KST!0jBmGegJqViw4IEUipaOdNqCayav2j-zUIBmA42I8pc)) ~~(Mirrors: U - E - J)~~
+* The all-in-one pack for your region: ([U]() - [E]() - [J]()) ~~(Mirrors: U - E - J)~~
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I)
 * [Python 3.5.1](https://www.python.org/downloads/)
 * This guide assumes you are familiar with 3DS homebrew.

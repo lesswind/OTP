@@ -6,7 +6,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 
 ## What You Need
 
-* The all-in-one pack for your region: ([U](https://mega.nz/#!V11RwKhY!hv8aCgIV5PA9GOt9h1VzKmhGrZcP8-NwmLKWDKyd3Ac) - [E](https://mega.nz/#!RgUgEZxZ!2j-XuldVMepFGBYb4RsCZvkmN4DAvO-tOu4-cn8B_Hg) - [J](https://mega.nz/#!RlE2EZ7K!nzKL0NsBZ8ZTxpmJM3HYatSsI0-KvH2QMXnb21vhZQI)) ~~(Mirrors: U - E - J)~~
+* The all-in-one pack for your region: ([U]() - [E]() - [J]()) ~~(Mirrors: U - E - J)~~
 * [Python 3.5.1](https://www.python.org/downloads/)
 * This guide assumes you are familiar with 3DS homebrew.
 * This guide assumes you are on sysNAND version 9.2
