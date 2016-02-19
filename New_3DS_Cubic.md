@@ -6,7 +6,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 
 ## What You Need
 
-* The all-in-one pack for your region: ([U](https://mega.nz/#!s99BBAgZ!iImw4gZ9E7_veTK5L5JGFHw7IM8JVB1VzlTk_hp7i48) - [E](https://mega.nz/#!xkUilDBS!qgnImVrpLqwWBwmZ3yu1KlQMTa1_x88jJxc4oPlj_gM) - [J](https://mega.nz/#!dk8X0JLZ!-gXHgb9T5as7AMlqekLHl1z0Nz1c_PAN6f2PrHtGk6Y)) ~~(Mirrors: U - E - J)~~
+* The all-in-one pack for your region: ([U](https://github.com/Plailect/OTP/archive/New_3DS_Cubic_U.zip) - [E](https://github.com/Plailect/OTP/archive/New_3DS_Cubic_E.zip) - [J](https://github.com/Plailect/OTP/archive/New_3DS_Cubic_J.zip))
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I)
 * [Python 3.5.1](https://www.python.org/downloads/)
 * This guide assumes you are familiar with 3DS homebrew.
@@ -57,16 +57,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 11. Following the options on the main menu, backup your emuNAND to `emuNAND.bin`.
 12. Press (Select) on the main menu to eject your SD card, then rename `emuNAND.bin` to `emuNAND_bricked.bin` on the root of your SD card from your computer.
 13. Copy over `emuNAND_bricked.bin` to `New_3DS_Cubic_[U/E/J]/Section_II/Bricked/` on your computer.
-14. **If you use the included ones you will brick.**
-15. **If you use the included ones you will brick.**
-16. **If you use the included ones you will brick.**
-17. **If you use the included ones you will brick.**
-13. ~~Double click either `Windows.py` if you are on Windows, or `LinuxOrMac.py` if you are on Linux or Mac.~~ (**Do not use, is an old version that was uploaded by mistake.**)
-14. **Replace both `Windows.py` and `LinuxOrMac.py` with ones downloaded [here](https://mega.nz/#!xoFgUK5R!yNjWv1C7Q5xU_IcG---5SP-wglIvNKgnzO_xk970_1w) and [here](https://mega.nz/#!FwtX0B7A!4Ep_pQJ9F_IDbq-kuhporHgU2S6hEQiDXe5xWdvRdrE). If you use the included ones you will brick.**
-15. **If you use the included ones you will brick.**
-16. **If you use the included ones you will brick.**
-17. **If you use the included ones you will brick.**
-18. **If you use the included ones you will brick.**
+13. Double click either `Windows.py` if you are on Windows, or `LinuxOrMac.py` if you are on Linux ~~or Mac~~ (**Mac is broken, wait for a fix**).
 14. Wait.
 22. Copy the modified `sysNAND.bin` that was just created from `New_3DS_Cubic_[U/E/J]/Section_II/Bricked/Unbricked/` to the root of your SD card.
 24. Reinsert your SD card into your 3DS and press (B).

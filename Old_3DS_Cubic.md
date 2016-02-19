@@ -8,7 +8,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 
 ## What You Need
 
-* The all-in-one pack for your region: ([U]() - [E]() - [J]()) ~~(Mirrors: U - E - J)~~
+* The all-in-one pack for your region: ([U](https://github.com/Plailect/OTP/archive/Old_3DS_Cubic_U.zip) - [E](https://github.com/Plailect/OTP/archive/Old_3DS_Cubic_E.zip) - [J](https://github.com/Plailect/OTP/archive/Old_3DS_Cubic_J.zip))
 * [Cubic Ninja](http://www.amazon.com//dp/B004SG211I)
 * [Python 3.5.1](https://www.python.org/downloads/)
 * This guide assumes you are familiar with 3DS homebrew.
