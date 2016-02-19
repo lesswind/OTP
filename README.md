@@ -38,23 +38,20 @@ New 3DS | Old 3DS / 2DS
 [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md)
 [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md)
 
-Pack | SHA-256
+Pack .zip | SHA-256
 :---: | :---:
-New_3DS_Cubic_U | ~~d365b7c952ebe767e81ac2ce7ccf30cc4b0442c28b0871b8a03657f7deb3af13~~
-New_3DS_Cubic_E | ~~fc0e59728f1096fd65d5d1bfc25232f1993154c4916e8a9a26232e30a1718812~~
-New_3DS_Cubic_J | ~~4ac3018593db6a08c5dd4c6309c5d1f6d95a7fe64d4f447e8956980543691577~~
-Old_3DS_Cubic_U | ~~3ec9823a8a8bde427ee6622ca54f9d2c15abc7975eb45925ade3b7ca74d9504b~~
-Old_3DS_Cubic_E | ~~f4482ce9eea77a6c89d84237d49c0a647b12961e07d4d77f037a87bbb9121612~~
-Old_3DS_Cubic_J | ~~0c43a5da1ae0fbc799b2ca0467196989251b7d9f489236efb5802b7fead72c07~~
-New_3DS_Spider_U | ~~d2969a406337c5c15c044d6cbb9feb55fa54b169a282f6b331b4afcf1052a298~~
-New_3DS_Spider_E | ~~5907913920a19380702bd3f5c21a8f81fe4906ae4186a3268cb865e7fcb835ec~~
-New_3DS_Spider_J | ~~60c8fc76370e3a19cd2c26d20f0d02553c57635bd748c4f2b51fdf79d43d3644~~
-Old_3DS_Spider_U | ~~755b2b761a7163d79b5dd6b6499b24ad9137d447a6c8719dacd68799a24bfa68~~
-Old_3DS_Spider_E | ~~e5c742fe8819aefaddb40d5869f91bdf5ba7c4b4e1dc09a2a0f1a1982aaafe78~~
-Old_3DS_Spider_J | ~~755b2b761a7163d79b5dd6b6499b24ad9137d447a6c8719dacd68799a24bfa68~~
-
-**The SHA-256s are outdated!**
-
+New_3DS_Cubic_U | 09481ca94a0aa651b1987a4d3ebfb1c458fc964bbdafd0aa1683fe9fd92756e7
+New_3DS_Cubic_E | 973cf3e2fa0350660f81ed7cffbc7a89138e57d213548928b7c246f922c65c77
+New_3DS_Cubic_J | f663d0a2689b248497383b34c3df0808b867f58ae072893068d9786c66ca5a15
+Old_3DS_Cubic_U | 909cb195f375d473275ef25ad7cdf90241ddb40d2c374f3746870b4b32d0317f
+Old_3DS_Cubic_E | 90f0ca3ff64ad09822cb33b3387ef2fa2e2702ab39bdf7dd0c9755b17dc9f7bb
+Old_3DS_Cubic_J | 6841c339eae4a3b1998abc3fd433239bbe8823f8d504159e330fe241d74035f1
+New_3DS_Spider_U | cca11da32534d9968ea60dc1db8225896b9bf942b5a6d4609f3f0d4be0e80083
+New_3DS_Spider_E | 5a5af1ff6af925746190fb4d19e6e2c38e1edca843a6c1939ba53dfb8e65fed6
+New_3DS_Spider_J | d24dc85922e5407a631f236066d7932b29a93fb73cdf33e523381e662f9f954f
+Old_3DS_Spider_U | b78380fb5653efd8fa02627b73ff9b4e41a69765175cb5b5d8c4f3f95362887b
+Old_3DS_Spider_E | d4d9ca707f3ee1dbab323e625e19335d740b567811f52ccc660353093f6fb4b1
+Old_3DS_Spider_J | f07c8c2dd118756c5b86eca2c4cbd9da37299bdee1d8c45a799d375c42135c5d
 
 ## Credits
 
