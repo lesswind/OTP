@@ -1,5 +1,3 @@
-# OTP Guide - R2.1
-
 *While not a requirement anymore, a hardmod is still recommended.*
 
 This guide should work without a hardmod in a relatively safe way. Thanks to the downgrades being done in emuNAND and a python script automating some of the risky edits for the New 3DS, the guide is mostly safe for use without a hardmod.
