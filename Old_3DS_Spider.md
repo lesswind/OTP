@@ -26,11 +26,13 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 9. Follow the options to dump "CTRNAND Padgen" to `nand.fat16.xorpad`.
 10. Press (Select) on the main menu to eject your SD card.
 11. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and `nand.fat16.xorpad` from the root of your SD card to `Old_3DS_Spider_[U/E/J]/Section_I/Backup/`.
-13. Delete `sysNAND.bin`, `emuNAND.bin`, and `nand.fat16_0x5_.xorpad` from the root of your SD card, then reinsert into your 3DS.
+13. Delete `sysNAND.bin`, `emuNAND.bin`, and `nand.fat16.xorpad` from the root of your SD card, then reinsert into your 3DS.
 18. Copy all files from your SD card into `Old_3DS_Spider_[U/E/J]/Section_I/Backup/SD_Backup` on your computer.
 
+(Yes I know you don't need your xorpad, but it's good practice to have a way to decrypt your backups!)
+
 ### Section II - Downgrading
-3. Copy all files from `Old_3DS_Cubic_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
+3. Copy all files from `Old_3DS_Spider_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 1. Boot your 3DS into emuNAND using the CFW of your choice.
 2. **If you are on 2DS, make sure your wifi is on, you will not be able to toggle it in 2.1.**
 2. Using the CIA Manager of your choice of your choice, install TinyFormat.cia **on emuNAND**.
@@ -43,10 +45,10 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 7. Following the options on the main menu, backup your emuNAND to `emuNAND.bin`.
 10. Press (Select) on the main menu to eject your SD card
 11. Put your SD card in your computer, then rename `emuNAND.bin` on the root of your SD card to `emuNAND_formatted.bin`.
-8. Copy `emuNAND_formatted.bin` from the root of your SD card to `Old_3DS_Cubic_[U/E/J]/Section_II/Backup/`
+8. Copy `emuNAND_formatted.bin` from the root of your SD card to `Old_3DS_Spider_[U/E/J]/Section_II/Backup/`
 7. Open sysUpdater **on emuNAND**.
 8. Press (Y) to downgrade emuNAND to v2.1.
-9. If you encounter an error at any point during the downgrade, restore your emuNAND backup to emuNAND by copying `Old_3DS_Cubic_[U/E/J]/Section_I/Backup/emuNAND_formatted.bin` to the root of your SD card and restoring using decrypt9 through homebrew menu on sysNAND. Afterwards, you can retry the downgrade on emuNAND, restoring from backup whenever it fails, until it goes through successfully.
+9. If you encounter an error at any point during the downgrade, restore your emuNAND backup to emuNAND by copying `Old_3DS_Spider_[U/E/J]/Section_I/Backup/emuNAND_formatted.bin` to the root of your SD card and restoring using decrypt9 through homebrew menu on sysNAND. Afterwards, you can retry the downgrade on emuNAND, restoring from backup whenever it fails, until it goes through successfully.
 10. Once you have successfully downgraded emuNAND with no errors, reboot into sysNAND **(No current CFW can boot a 2.1 emuNAND)** and get into the Homebrew Launcher through the entrypoint of your choice.
 10. Open Decrypt9.
 11. Following the options on the main menu, backup your emuNAND to `emuNAND.bin`.

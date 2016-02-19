@@ -27,8 +27,10 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 9. Follow the options to dump "CTRNAND Padgen" to `nand.fat16.xorpad`.
 10. Press (Select) on the main menu to eject your SD card.
 11. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, and `nand.fat16.xorpad` from the root of your SD card to `Old_3DS_Cubic_[U/E/J]/Section_I/Backup/`.
-13. Delete `sysNAND.bin`, `emuNAND.bin`, and `nand.fat16_0x5_.xorpad` from the root of your SD card, then reinsert into your 3DS.
+13. Delete `sysNAND.bin`, `emuNAND.bin`, and `nand.fat16.xorpad` from the root of your SD card, then reinsert into your 3DS.
 18. Copy all files from your SD card into `Old_3DS_Cubic_[U/E/J]/Section_I/Backup/SD_Backup` on your computer.
+
+(Yes I know you don't need your xorpad, but it's good practice to have a way to decrypt your backups!)
 
 ### Section II - Downgrading
 3. Copy all files from `Old_3DS_Cubic_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
