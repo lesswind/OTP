@@ -60,6 +60,7 @@ Old_3DS_Spider_J | 755b2b761a7163d79b5dd6b6499b24ad9137d447a6c8719dacd68799a24bf
 + Shadowtrance for answering questions and testing
 + icecream for testing
 + s_99 for emotional support
++ dark_samus for testing
 + dukesrg for hosting
 + all of #Cakey on Freenode for being awesome
 
