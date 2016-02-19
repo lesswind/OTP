@@ -1,12 +1,10 @@
-# OTP Guide
+# OTP Guide - r2
 
-*While not required in a technical sense, a hardmod is* **strongly** *recommended.*
+*While not a requirement anymore, a hardmod is still recommended.*
 
-For now, this guide is only *theoretically* possible without a hardmod. Quite a bit more testing will be needed before this is even relatively safe to use without one.
+This guide should work without a hardmod in a relatively safe way. Thanks to the downgrades being done in emuNAND and a python script automating some of the risky edits for the New 3DS, the guide is mostly safe for use without a hardmod.
 
-If you are going to attempt this without one (do not - *random* **hard bricks** can and will happen, sometimes to a fault not of your own), follow all instructions to the letter and hope you are incredibly lucky. If you try this without a hardmod, do not complain when you end up with a multiple hundred dollar paperweight.
-
-**Seriously, do not attempt without a hardmod.**
+If you are going to attempt this without one, know that there may be some issues in the first couple days after the release of this revision and you should wait a while to ensure no serious errors made their way into the guide.
 
 ## Introduction
 
@@ -14,7 +12,7 @@ This is, to the best of my knowledge, the first public comprehensive guide to ge
 
 This guide will take you through the steps of downgrading to version 2.1 to get the OTP, which was blocked from our reach with the release of 3.X (without some hardware trickery).
 
-**This guide will work on New 3DS, Old 3DS, and 2DS in the U, E, and ~~J~~ regions (coming soon). The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to use this guide.**
+**This guide will work on New 3DS, Old 3DS, and 2DS in the U, E, and J regions. The C, K, and T regions shipped with version 4.X which is after the OTP lockout, and as such *cannot* downgrade far enough to use this guide.**
 
 C, K, and T regions may be able to switch to U, E, or J temporarily but that is outside of the scope of this guide.
 
@@ -31,25 +29,35 @@ New 3DS | Old 3DS / 2DS
 [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Cubic.md) | [With Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Cubic.md)
 [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/New_3DS_Spider.md) | [Without Cubic Ninja](https://github.com/Plailect/OTP/blob/master/Old_3DS_Spider.md)
 
-Region | SHA-256
+Pack | SHA-256
 :---: | :---:
-USA | f2532cebfc10ca4205739b9904471f4edd3c0d33a4ce5c39501a8e316c9c40d9
-EUR | 73b0e7764c177e2989b37e6dded11a8b33de4ffcb5f9c449b505a663b833da55
-JAP | N/A
+New_3DS_Cubic_U | d365b7c952ebe767e81ac2ce7ccf30cc4b0442c28b0871b8a03657f7deb3af13
+New_3DS_Cubic_E | fc0e59728f1096fd65d5d1bfc25232f1993154c4916e8a9a26232e30a1718812
+New_3DS_Cubic_J | 4ac3018593db6a08c5dd4c6309c5d1f6d95a7fe64d4f447e8956980543691577
+Old_3DS_Cubic_U | 3ec9823a8a8bde427ee6622ca54f9d2c15abc7975eb45925ade3b7ca74d9504b
+Old_3DS_Cubic_E | f4482ce9eea77a6c89d84237d49c0a647b12961e07d4d77f037a87bbb9121612
+Old_3DS_Cubic_J | 0c43a5da1ae0fbc799b2ca0467196989251b7d9f489236efb5802b7fead72c07
+New_3DS_Spider_U | d2969a406337c5c15c044d6cbb9feb55fa54b169a282f6b331b4afcf1052a298
+New_3DS_Spider_E | 5907913920a19380702bd3f5c21a8f81fe4906ae4186a3268cb865e7fcb835ec
+New_3DS_Spider_J | 60c8fc76370e3a19cd2c26d20f0d02553c57635bd748c4f2b51fdf79d43d3644
+Old_3DS_Spider_U | 755b2b761a7163d79b5dd6b6499b24ad9137d447a6c8719dacd68799a24bfa68
+Old_3DS_Spider_E | e5c742fe8819aefaddb40d5869f91bdf5ba7c4b4e1dc09a2a0f1a1982aaafe78
+Old_3DS_Spider_J | 755b2b761a7163d79b5dd6b6499b24ad9137d447a6c8719dacd68799a24bfa68
+
 
 ## Credits
 
 + AHP_Person for code.bin
 + Normmatt for load.bin
 + yellows8 for answering my questions
-+ b1l1s (he's back baby) for writing the 2xrsa implementation
++ b1l1s (he's back baby) for being fucking amazing
 + mid-kid for letting us use his channel
-+ Gelex for testing and debugging
++ Gelex for being fucking amazing
 + dank101 for testing
 + Vappy for emotional support
-+ fox8091 for answering questions
++ MassExplosion123 for answering questions
 + Psi-Hate for testing
-+ Shadowtrance for answering questions
++ Shadowtrance for answering questions and testing
 + icecream for testing
 + s_99 for emotional support
 + dukesrg for hosting
