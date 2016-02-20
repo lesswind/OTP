@@ -68,6 +68,7 @@ Old_3DS_Spider_U | d32be7bad321773aae4d5c4b8bc87c2beb84531bef7f8cb9f1266a947079d
 + s_99 for emotional support
 + dark_samus for testing
 + Urbanshadow for fixing my python script
++ Mrrraou for helping with support
 + dukesrg for hosting 2xrsa
 + all of #Cakey on Freenode for being awesome
 
