@@ -62,7 +62,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 ### Section III - Getting the OTP
 1. Copy all files from `Old_3DS_Spider_[U/E/J]/Section_III/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 2. Go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3ds.
-3. Wait for the flashes.
+3. Wait for the flashes. You can power off after about ten seconds of flashing.
 4. Check your `a9f.bin` on the SD card. If the exploit was successful then it should **not** be `0 Bytes`.
 5. Remove your SD card and copy `a9f.bin` to your computer.
 6. Rename `a9f.bin` to `OTP.bin`.
