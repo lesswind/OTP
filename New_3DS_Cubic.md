@@ -46,7 +46,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 7. Open sysUpdater **on emuNAND**.
 8. Press (Y) to downgrade emuNAND to v2.1.
 9. If you encounter an error at any point during the downgrade, restore your emuNAND backup to emuNAND by copying `New_3DS_Cubic_[U/E/J]/Section_I/Backup/emuNAND_formatted.bin` to the root of your SD card and restoring using decrypt9 through homebrew menu on sysNAND. Afterwards, you can retry the downgrade on emuNAND, restoring from backup whenever it fails, until it goes through successfully.
-10. 10. If you still are having issues, some users have reported upgrading **emuNAND** to 10.5 then downgrading may work. This is because this update will remove a modified TWL_FIRM which sysUpdater has trouble dealing with.
+10. 10. If you still are having issues, some users have reported upgrading **emuNAND** to 10.5 then downgrading may work. This is because this update will remove any modified TWL_FIRM which sysUpdater has trouble dealing with.
 9. Reboot into sysNAND **(emuNAND will be bricked by the downgrade)** and get into the Homebrew Launcher through the entrypoint of your choice.
 10. Open Decrypt9.
 11. Following the options on the main menu, backup your emuNAND to `emuNAND.bin`.
