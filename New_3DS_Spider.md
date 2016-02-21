@@ -73,6 +73,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 1. Copy all files from `New_3DS_Spider_[U/E/J]/Section_IV/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 1. Delete any sysNAND or emuNAND `.bin` files from the root of your SD card.
 2. Copy `sysNAND.bin` and `emuNAND.bin` from `New_3DS_Spider_[U/E/J]/Section_I/Backup/` to the root of your SD card.
+3. Rename `sysNAND.bin` to `NAND.bin` on your SD card.
 3. Reinsert your SD card and go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3ds.
 4. After Decrypt9 has loaded, follow the options on the main menu to restore your sysNAND and your emuNAND from `sysNAND.bin` and `emuNAND.bin` respectively.
 5. Shut down your 3DS and delete all files on the SD card using your computer. *(Do not format.)*
