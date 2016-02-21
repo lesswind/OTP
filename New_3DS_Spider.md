@@ -27,6 +27,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 18. Copy all files from your SD card into `New_3DS_Spider_[U/E/J]/Section_I/Backup/SD_Backup` on your computer.
 
 ### Section II - Downgrading
+1. Delete any existing `Updates` folder on your sdcard that may be leftover from a previous downgrade.
 3. Copy all files from `New_3DS_Spider_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 1. Boot your 3DS into emuNAND using the CFW of your choice.
 2. **Make sure your wifi is on, you will not be able to toggle it in 2.1.**
