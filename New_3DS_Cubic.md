@@ -16,17 +16,17 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 ## Instructions
 ### Section I - Prep Work
 1. Download the all-in-one pack `.zip` for your region.
-2. Extract the `New_3DS_Spider_[U/E/J]/` folder from the `.zip` to somewhere on your computer.
+2. Extract the `New_3DS_Cubic_[U/E/J]/` folder from the `.zip` to somewhere on your computer.
 1. Delete any existing `Updates` folder on your sdcard that may be leftover from a previous downgrade.
-3. Copy all files from `New_3DS_Spider_[U/E/J]/Section_I/Copy_To_SD_Card/` to your SD card. Replace any existing files.
+3. Copy all files from `New_3DS_Cubic_[U/E/J]/Section_I/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 5. From sysNAND, get into the Homebrew Launcher through the entrypoint of your choice.
 6. Open Decrypt9.
 7. Following the options on the main menu, backup your sysNAND and your emuNAND to `sysNAND.bin` and `emuNAND.bin` respectively.
 8. From Decrypt9's main menu, select "XORpad Generator Options."
 9. Follow the options to dump "CTRNAND Padgen" to `nand.fat16.xorpad` and "CTRNAND Padgen 0x4" to `nand.fat16.0x4.xorpad`
 10. Press (Select) on the main menu to eject your SD card.
-11. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, `nand.fat16.xorpad`, and `nand.fat16.0x4.xorpad` from the root of your SD card to `New_3DS_Spider_[U/E/J]/Section_I/Backup/`. **Create the folder if needed, the xorpads must be in this exact folder or you will brick.**
-18. Copy all files from your SD card into `New_3DS_Spider_[U/E/J]/Section_I/Backup/SD_Backup` on your computer.
+11. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, `nand.fat16.xorpad`, and `nand.fat16.0x4.xorpad` from the root of your SD card to `New_3DS_Cubic_[U/E/J]/Section_I/Backup/`. **Create the folder if needed, the xorpads must be in this exact folder or you will brick.**
+18. Copy all files from your SD card into `New_3DS_Cubic_[U/E/J]/Section_I/Backup/SD_Backup` on your computer.
 
 ### Section II - Downgrading
 3. Copy all files from `New_3DS_Cubic_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
@@ -66,7 +66,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 1. Open Cubic Ninja.
 2. Select "Create", then "QR Code", then "Scan QR Code."
 3. Scan the QR code `New_3DS_Cubic_[U/E/J]/Section_II/Cubic_Ninja_Qr_Code.png`
-4. Check your `OTP.bin` on the SD card. If the exploit was successful then it should **not** be `0 Bytes`.
+4. Check your `OTP.bin` on the SD card. If the exploit was successful then it should be `256 Bytes`.
 5. Remove your SD card and copy `OTP.bin` to your computer.
 6. Backup `OTP.bin` somewhere safe.
 
@@ -76,7 +76,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 2. Copy `sysNAND.bin` and `emuNAND.bin` from `New_3DS_Cubic_[U/E/J]/Section_I/Backup/` to the root of your SD card.
 3. Rename `sysNAND.bin` to `NAND.bin` on your SD card.
 3. Reinsert your SD card and go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3ds.
-4. After Decrypt9 has loaded, follow the options on the main menu to restore your sysNAND and your emuNAND from `sysNAND.bin` and `emuNAND.bin` respectively.
+4. After Decrypt9 has loaded, follow the options on the main menu to restore your sysNAND and your emuNAND from `NAND.bin` and `emuNAND.bin` respectively.
 5. Shut down your 3DS and delete all files on the SD card using your computer. *(Do not format.)*
 6. Copy all files from `New_3DS_Cubic_[U/E/J]/Section_I/Backup/SD_Backup` to your SD card.
 7. Reinsert the SD card and reboot!

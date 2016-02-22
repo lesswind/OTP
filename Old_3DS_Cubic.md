@@ -67,7 +67,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 1. Open Cubic Ninja.
 2. Select "Create", then "QR Code", then "Scan QR Code."
 3. Scan the QR code `Old_3DS_Cubic_[U/E/J]/Section_II/Cubic_Ninja_Qr_Code.png`
-4. Check your `OTP.bin` on the SD card. If the exploit was successful then it should **not** be `0 Bytes`.
+4. Check your `OTP.bin` on the SD card. If the exploit was successful then it should be `256 Bytes`.
 5. Remove your SD card and copy `OTP.bin` to your computer.
 6. Backup `OTP.bin` somewhere safe.
 
@@ -77,7 +77,7 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 2. Copy `sysNAND.bin` and `emuNAND.bin` from `Old_3DS_Cubic_[U/E/J]/Section_I/Backup/` to the root of your SD card.
 3. Rename `sysNAND.bin` to `NAND.bin` on your SD card.
 3. Reinsert your SD card and go to http://dukesrg.github.io/2xrsa.html?arm11.bin on your 3ds.
-4. After Decrypt9 has loaded, follow the options on the main menu to restore your sysNAND and your emuNAND from `sysNAND.bin` and `emuNAND.bin` respectively.
+4. After Decrypt9 has loaded, follow the options on the main menu to restore your sysNAND and your emuNAND from `NAND.bin` and `emuNAND.bin` respectively.
 5. Shut down your 3DS and delete all files on the SD card using your computer. *(Do not format.)*
 6. Copy all files from `Old_3DS_Cubic_[U/E/J]/Section_I/Backup/SD_Backup` to your SD card.
 7. Reinsert the SD card and reboot!
