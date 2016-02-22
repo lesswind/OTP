@@ -1,6 +1,6 @@
 # OTP Guide - New 3DS (Without Cubic Ninja)
 
-This is a sub section of the main guide [here](https://github.com/Plailect/OTP/blob/master/README.md). Please read that first before continuing here.
+This is a sub section of the main guide [here](https://plailect.github.io/OTP/). Please read that first before continuing here.
 
 **All regions are now available!**
 
