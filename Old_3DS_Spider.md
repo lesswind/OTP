@@ -9,7 +9,6 @@ This is a sub section of the main guide [here](https://github.com/Plailect/OTP/b
 ## What You Need
 
 * The all-in-one pack for your region: ([U](https://github.com/Plailect/OTP/archive/Old_3DS_Spider_U.zip) - [E](https://github.com/Plailect/OTP/archive/Old_3DS_Spider_E.zip) - [J](https://github.com/Plailect/OTP/archive/Old_3DS_Spider_J.zip))
-* [Python 3.5.1](https://www.python.org/downloads/)
 * This guide assumes you are familiar with 3DS homebrew.
 * This guide assumes you are on sysNAND version 9.2
 * This guide assumes you have a working emuNAND and CFW (such as [CakesFW](https://github.com/mid-kid/CakesForeveryWan), [ReiNand](https://github.com/Reisyukaku/ReiNand), or [rxTools](https://github.com/roxas75/rxTools)).
