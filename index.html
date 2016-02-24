@@ -70,7 +70,7 @@
 
 <p>There is, however, a method to dump the hash of the OTP on version 9.6.0-X. Because Kernel9Loader does not clear the SHA_HASH register after it has been used, dumping the SHA_HASH will give the hash of the OTP which was handed over to Kernel9 from Kernel9Loader. In addition, there is a long standing vulnerability where an MCU reboot caused by the i2c will not clear RAM like it's supposed to.</p>
 
-<p>This allows for a hardware based attack where arbitrary data is written to nand_sector96+0x10 in a sysNAND backup and flashed to the device. Afterwards we wire the i2c to MCU reboot on our command, write a payload (which will write 0x1000A040 - 0x1000A060 to a file on the SD card) to arm9 memory somewhere, fill all memory a NOP sled followed by a JMP instruction pointing to the payload. We can then MCU reboot repeatedly (incrementing nand_sector96+0x10 by 1 each time) until the Kernel9Loader jumps to the payload by random chance.</p>
+<p>This allows for a hardware based attack where arbitrary data is written to nand_sector96+0x10 in a sysNAND backup and flashed to the device. Afterwards we wire the i2c to MCU reboot on our command, write a payload (which will write 0x1000A040 - 0x1000A060 to a file on the SD card) to arm9 memory somewhere, fill all memory with a NOP sled followed by a JMP instruction pointing to the payload. We can then MCU reboot repeatedly (incrementing nand_sector96+0x10 by 1 each time) until the Kernel9Loader jumps to the payload by random chance.</p>
 
 <p>Because of the complexity and extra hardware involved in the method described above, I have decided to limit the scope of this guide strictly to the software based approach of downgrading to a version below 3.0.0-X. Version 2.1.0-X was selected because it is the only version below 3.0.0-X that contains a fully exploitable browser version (2.0.0-X has a partially exploitable browser, but it won't work for other reasons).</p>
 
@@ -81,21 +81,21 @@
 
 <ul>
 <li>
-<strong>Q:</strong> <em>What is the OTP?</em>
-<strong>A:</strong> The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: <a href="https://3dbrew.org/wiki/OTP_Registers">https://3dbrew.org/wiki/OTP_Registers</a>
+<em>What is the OTP?</em>
+The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: <a href="https://3dbrew.org/wiki/OTP_Registers">https://3dbrew.org/wiki/OTP_Registers</a>
 </li>
 <li>
-<strong>Q:</strong> <em>What can I do with my OTP?</em>
-<strong>A:</strong> The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, emuNAND boot speed almost as fast as regular sysNAND (using something like AuReiNand), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.</li>
+<em>What can I do with my OTP?</em>
+The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, emuNAND boot speed almost as fast as regular sysNAND (using something like AuReiNand), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.</li>
 <li>
-<strong>Q:</strong> <em>Why do we have to downgrade to get it?</em>
-<strong>A:</strong> Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade emuNAND (to ensure we don't partial downgrade) to 2.1, then flash emuNAND to sysNAND to get the OTP.</li>
+<em>Why do we have to downgrade to get it?</em>
+Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade emuNAND (to ensure we don't partial downgrade) to 2.1, then flash emuNAND to sysNAND to get the OTP.</li>
 <li>
-<strong>Q:</strong> <em>What version do I have to be on?</em>
-<strong>A:</strong> You must be on version 9.2 or less but this guide assumes 9.2. Any lower version may work but you're on your own for that.</li>
+<em>What version do I have to be on?</em>
+You must be on version 9.2 or less but this guide assumes 9.2. Any lower version may work but you're on your own for that.</li>
 <li>
-<strong>Q:</strong> <em>What's the current brick rate?</em>
-<strong>A:</strong> Bricks are still possible due to either bad software or user error, although they are less common than before. If you have a comfortable traditional emuNAND setup right now then I would recommended staying with it until Arm9loaderhax has more uses.</li>
+<em>What's the current brick rate?</em>
+Bricks are still possible due to either bad software or user error, although they are less common than before. If you have a comfortable traditional emuNAND setup right now then I would recommended staying with it until Arm9loaderhax has more uses.</li>
 </ul>
 
 <h2>
@@ -132,51 +132,51 @@
 <tbody>
 <tr>
 <td align="center">New_3DS_Cubic_E</td>
-<td align="center">3efa999e5ca14287bd8aa2a5037654c3edca7c55728b5cd632eb4a2d08b50437</td>
+<td align="center">76444da08e21d02f1da257a190bae7d23675cebb9d87803ba98f465122d9cb9d</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Cubic_J</td>
-<td align="center">6e21864097edc535b4d22f22fc56c8eb46ec14c47791a6f3723a87bc964ec171</td>
+<td align="center">2e445e9f3659a1724f2e8bdab9b700d966b5ca0d3455217315f4f73702e0a520</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Cubic_U</td>
-<td align="center">b163cce870ddafc6097f72ca32a117097e4f84b84cfc1e07a01252305a56f38f</td>
+<td align="center">ef36cfe20095ba3c1ceef01284857ef381bba6f50333e2294ce0983842c0df66</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Spider_E</td>
-<td align="center">2ed4b7f2b3fba41e9a65f8946e289118d1a9f5111832f7fe15403a3e736f2ac9</td>
+<td align="center">67e4dcd9f9179c099776b6ea6c57e3cadcdb2f10a93b83be75d3b297c182aafd</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Spider_J</td>
-<td align="center">64808b3dc04f13c7a7951b41c4949e01d5162e8544edb1e4ffd5399b1031ab06</td>
+<td align="center">1991452fd1926f48cb153b5486df6ac9b6684dfdd92ecec3b73ae7193fe638d7</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Spider_U</td>
-<td align="center">81516004b42e51b9eec6bcecd38c5d4f90e1216e0a7e0dc97fafe2194f5ae6c9</td>
+<td align="center">ec1881f74a1a65148278ea7d8960f3ab42e94e22c6808b171c1baebdfd62b028</td>
 </tr>
 <tr>
 <td align="center">Old_3DS_Cubic_E</td>
-<td align="center">7a41faff8361533d370f8e717fcc42e0ae789627fa305101476250c90ec1a2ab</td>
+<td align="center">32debaf3d87205ac8de2d60a53028ba524d3b1544ca966299bd2090003140a9c</td>
 </tr>
 <tr>
 <td align="center">Old_3DS_Cubic_J</td>
-<td align="center">51371a4f6d0007e3218489c21104261b2e7dde75a98fda92185f3ce336923576</td>
+<td align="center">809d6b07e229a40a02d9e1800ad1e6381073959d4cac567c31cdbe52174c96a4</td>
 </tr>
 <tr>
 <td align="center">Old_3DS_Cubic_U</td>
-<td align="center">2ba6c0a14374e237e6d220bcbd84b8794c4dc045b5c0723912e853ff8d393a9c</td>
+<td align="center">d524166320b396e880f8c20b75e5c1a6e2ac5d51a6e7d1bf98c7d6388c5f8ebe</td>
 </tr>
 <tr>
 <td align="center">Old_3DS_Spider_E</td>
-<td align="center">586ded077063f6c27d270f8df14535a7ccd326d595a304321764b236ddafe403</td>
+<td align="center">b421d0265a26f0bdedaaf0112ecb1c9bbe0a5a2d4cd2a29dd7f09e0e5de51fa1</td>
 </tr>
 <tr>
 <td align="center">Old_3DS_Spider_J</td>
-<td align="center">a408a98796d40bda44b0620af993c65ead27945c422dbd877bb3cc309e5e792f</td>
+<td align="center">00ad5a9450ee8679311c2ee72a5aa092feaf490f606a4c16c64b5560d81af709</td>
 </tr>
 <tr>
 <td align="center">Old_3DS_Spider_U</td>
-<td align="center">d32be7bad321773aae4d5c4b8bc87c2beb84531bef7f8cb9f1266a947079d417</td>
+<td align="center">12f690d6d1ed58e851d86b9c664e7be59994d997f57ffb85aabcf1746cb65e14</td>
 </tr>
 </tbody>
 </table>
