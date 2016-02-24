@@ -18,7 +18,6 @@ This is a sub section of the main guide [here](https://plailect.github.io/OTP/).
 ### Section I - Prep Work
 1. Download the all-in-one pack `.zip` for your region.
 2. Extract the `Old_3DS_Cubic_[U/E/J]/` folder from the `.zip` to somewhere on your computer.
-1. Delete any existing `Updates` folder on your sdcard that may be leftover from a previous downgrade.
 3. Copy all files from `Old_3DS_Cubic_[U/E/J]/Section_I/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 5. From sysNAND, get into the Homebrew Launcher through the entrypoint of your choice.
 6. Open Decrypt9.
@@ -33,6 +32,7 @@ This is a sub section of the main guide [here](https://plailect.github.io/OTP/).
 (Yes I know you don't need your xorpad, but it's good practice to have a way to decrypt your backups!)
 
 ### Section II - Downgrading
+1. Delete any existing `Updates` folder on your sdcard that may be leftover from a previous downgrade.
 3. Copy all files from `Old_3DS_Cubic_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 1. Boot your 3DS into emuNAND using the CFW of your choice.
 2. **If you are on 2DS, make sure your wifi is on, you will not be able to toggle it in 2.1.**
