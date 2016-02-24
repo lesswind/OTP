@@ -35,7 +35,7 @@ This is a sub section of the main guide [here](https://plailect.github.io/OTP/).
 3. Open TinyFormat **on emuNAND**.
 4. Press (Y) to format emuNAND.
 5. Reboot back into emuNAND and complete initial setup *without* linking NNID.
-6. Change your theme then reboot into sysNAND. If your sysNAND has also changed then your NANDs are linked and you must use TinyFormat again.
+6. Change your theme in emuNAND then reboot into sysNAND. If your sysNAND has also changed then your NANDs are linked and you must use TinyFormat again.
 7. Reboot into emuNAND.
 6. After reinstalling the CIA Manager of your choice, install SysUpdater.cia **on emuNAND**.
 6. Reboot into sysNAND, then get into the Homebrew Launcher through the entrypoint of your choice.
