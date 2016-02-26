@@ -22,7 +22,7 @@ This is a sub section of the main guide [here](https://plailect.github.io/OTP/).
 8. From Decrypt9's main menu, select "XORpad Generator Options."
 9. Follow the options to dump "CTRNAND Padgen" to `nand.fat16.xorpad` and "CTRNAND Padgen 0x4" to `nand.fat16.0x4.xorpad`
 10. Press (Select) on the main menu to eject your SD card.
-11. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, `nand.fat16.xorpad`, and `nand.fat16.0x4.xorpad` from the root of your SD card to `New_3DS_Spider_[U/E/J]/Section_I/Backup/`. **Create the folder if needed, the xorpads must be in this exact folder or you will brick.**
+11. Put your SD card in your computer, then copy over `sysNAND.bin`, `emuNAND.bin`, `nand.fat16.xorpad`, and `nand.fat16.0x4.xorpad` from the root of your SD card to `New_3DS_Spider_[U/E/J]/Section_I/Backup/`. Create the folder if needed.
 18. Copy all files from your SD card into `New_3DS_Spider_[U/E/J]/Section_I/Backup/SD_Backup` on your computer.
 
 ### Section II - Downgrading
