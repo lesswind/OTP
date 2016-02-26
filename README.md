@@ -36,15 +36,15 @@ This guide will take you through the process of downgrading you emuNAND to 2.1.0
 
 ## FAQ / TL;DR
 
-+ *What is the OTP?*
++ *What is the OTP?* -
   The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: https://3dbrew.org/wiki/OTP_Registers
-+ *What can I do with my OTP?*
++ *What can I do with my OTP?* -
   The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, emuNAND boot speed almost as fast as regular sysNAND (using something like AuReiNand), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.
-+ *Why do we have to downgrade to get it?*
++ *Why do we have to downgrade to get it?* -
   Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade emuNAND (to ensure we don't partial downgrade) to 2.1, then flash emuNAND to sysNAND to get the OTP.
-+ *What version do I have to be on?*
++ *What version do I have to be on?* -
   You must be on version 9.2 or less but this guide assumes 9.2. Any lower version may work but you're on your own for that.
-+ *What's the current brick rate?*
++ *What's the current brick rate?* - 
   Bricks are still possible due to either bad software or user error, although they are less common than before. If you have a comfortable traditional emuNAND setup right now then I would recommended staying with it until Arm9loaderhax has more uses.
 
 ## Get Started
