@@ -89,6 +89,7 @@ Old_3DS_Spider_U | 12f690d6d1ed58e851d86b9c664e7be59994d997f57ffb85aabcf1746cb65
 + dark_samus for testing
 + Urbanshadow for fixing my python script
 + Mrrraou for helping with support
++ felipejfc for compiling the Mac version of 3DSFAT16tool for me
 + dukesrg for hosting 2xrsa
 + all of #Cakey on Freenode for being awesome
 

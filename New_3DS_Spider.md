@@ -7,7 +7,6 @@ This is a sub section of the main guide [here](https://plailect.github.io/OTP/).
 ## What You Need
 
 * The all-in-one pack for your region: ([U](https://github.com/Plailect/OTP/archive/New_3DS_Spider_U.zip) - [E](https://github.com/Plailect/OTP/archive/New_3DS_Spider_E.zip) - [J](https://github.com/Plailect/OTP/archive/New_3DS_Spider_J.zip))
-* [Python 3.5.1](https://www.python.org/downloads/)
 * This guide assumes you are familiar with 3DS homebrew.
 * This guide assumes you are on sysNAND version 9.2
 * This guide assumes you have a working emuNAND and CFW (such as [CakesFW](https://github.com/mid-kid/CakesForeveryWan), [ReiNand](https://github.com/Reisyukaku/ReiNand), or [rxTools](https://github.com/roxas75/rxTools)).
@@ -53,7 +52,7 @@ This is a sub section of the main guide [here](https://plailect.github.io/OTP/).
 11. Following the options on the main menu, backup your emuNAND to `emuNAND.bin`.
 12. Press (Select) on the main menu to eject your SD card, then rename `emuNAND.bin` to `emuNAND_bricked.bin` on the root of your SD card from your computer.
 13. Copy over `emuNAND_bricked.bin` to `New_3DS_Spider_[U/E/J]/Section_II/Bricked/` on your computer.
-13. Double click either `Windows.py` if you are on Windows, or `LinuxOrMac.py` if you are on Linux ~~or Mac~~ (**Mac is broken, wait for a fix**).
+13. If you are on Windows, double click `Windows.bat`. If you are on Mac, open a terminal window in the `Bricked` directory and run `sh Mac.sh`. If you are on Linux, open a terminal window in the `Bricked` directory and run `sh Linux.sh`.
 14. Wait.
 22. Copy the modified `sysNAND.bin` that was just created from `New_3DS_Spider_[U/E/J]/Section_II/Bricked/Unbricked/` to the root of your SD card.
 24. Reinsert your SD card into your 3DS and press (B).
