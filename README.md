@@ -1,6 +1,6 @@
 *While not a requirement anymore, a hardmod is still recommended.*
 
-This guide should work without a hardmod in a relatively safe way. Thanks to the downgrades being done in emuNAND and a python script automating some of the risky edits for the New 3DS, the guide is mostly safe for use without a hardmod.
+This guide should work without a hardmod in a relatively safe way. Thanks to the downgrades being done in emuNAND and a script automating some of the risky edits for the New 3DS, the guide is mostly safe for use without a hardmod.
 
 If you are going to attempt this without one, know that there may be some issues in the first couple days after the release of this revision and you should wait a while to ensure no serious errors made their way into the guide.
 
@@ -44,7 +44,7 @@ This guide will take you through the process of downgrading you emuNAND to 2.1.0
   Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade emuNAND (to ensure we don't partial downgrade) to 2.1, then flash emuNAND to sysNAND to get the OTP.
 + *What version do I have to be on?* -
   You must be on version 9.2 or less but this guide assumes 9.2. Any lower version may work but you're on your own for that.
-+ *What's the current brick rate?* - 
++ *What's the current brick rate?* -
   Bricks are still possible due to either bad software or user error, although they are less common than before. If you have a comfortable traditional emuNAND setup right now then I would recommended staying with it until Arm9loaderhax has more uses.
 
 ## Get Started
