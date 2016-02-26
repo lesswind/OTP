@@ -32,7 +32,7 @@
       <section>
         <div id="title">
           <h1>OTP Guide - R2.2</h1>
-          <p>Downgrade to v2.1 on all regions for both o3DS and n3DS to get your console specific OTP.</p>
+          <p>Downgrade to v2.1 on all regions for both Old and New 3DS to get your console specific OTP.</p>
           <hr>
           <span class="credits left">Project maintained by <a href="https://github.com/Plailect">Plailect</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
@@ -81,20 +81,20 @@
 
 <ul>
 <li>
-<em>What is the OTP?</em>
+<em>What is the OTP?</em> -
 The OTP is a console unique region from which console specific keys seem to be derived, although it is unknown how. More info here: <a href="https://3dbrew.org/wiki/OTP_Registers">https://3dbrew.org/wiki/OTP_Registers</a>
 </li>
 <li>
-<em>What can I do with my OTP?</em>
+<em>What can I do with my OTP?</em> -
 The OTP is a requirement to use Arm9loaderhax, which gets you, among other things, 100% boot rate, emuNAND boot speed almost as fast as regular sysNAND (using something like AuReiNand), and very early Arm9 access. In the future, this will allow for running things like Decrypt9 to unbrick yourself without a hardmod and other awesome tools.</li>
 <li>
-<em>Why do we have to downgrade to get it?</em>
+<em>Why do we have to downgrade to get it?</em> -
 Since version 3.0, the OTP is locked out early in sysNAND boot. There is a New 3DS only exploit that works on 9.6, but it requires extra hardware. The solution we are using is to downgrade emuNAND (to ensure we don't partial downgrade) to 2.1, then flash emuNAND to sysNAND to get the OTP.</li>
 <li>
-<em>What version do I have to be on?</em>
+<em>What version do I have to be on?</em> -
 You must be on version 9.2 or less but this guide assumes 9.2. Any lower version may work but you're on your own for that.</li>
 <li>
-<em>What's the current brick rate?</em>
+<em>What's the current brick rate?</em> - 
 Bricks are still possible due to either bad software or user error, although they are less common than before. If you have a comfortable traditional emuNAND setup right now then I would recommended staying with it until Arm9loaderhax has more uses.</li>
 </ul>
 
