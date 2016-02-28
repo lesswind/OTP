@@ -58,7 +58,7 @@
 <h2>
 <a id="abstract" class="anchor" href="#abstract" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Abstract</h2>
 
-<p>The OTP it a 0x100 byte region of seemingly random data at address 0x10012000. It is presumed that console unique keys are derived from this region, although it is currently unknown exactly how. The region is likely the console unique data store which is decrypted by the bootrom, but we don't know how that is done until somebody dumps the full protected bootrom. It is unknown at this time if anyone has successfully dumped the protected bootrom.</p>
+<p>The OTP is a 0x100 byte region of seemingly random data at address 0x10012000. It is presumed that console unique keys are derived from this region, although it is currently unknown exactly how. The region is likely the console unique data store which is decrypted by the bootrom, but we don't know how that is done until somebody dumps the full protected bootrom. It is unknown at this time if anyone has successfully dumped the protected bootrom.</p>
 
 <p>Prior to version 3.0.0-X, Nintendo locked access to this region using Kernel9, presumably under the assumption that an attacker would never gain access to arm9 userland (as arm9 kernel and userland are functionally identical thanks to svc 0x7B).</p>
 
@@ -128,27 +128,27 @@ This guide should work without a hardmod safely as long as you follow all instru
 <tbody>
 <tr>
 <td align="center">New_3DS_Cubic_E</td>
-<td align="center">e2a8bff2886d1e02c2b6a71ae32031144891708cbbbfd300a06e18b428e144d2</td>
+<td align="center">bee76141509a07ce61852ec25d9d68b6deaa2cf2d85842442a3029bb680da599</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Cubic_J</td>
-<td align="center">74cb7639e51bafa1c36c9d1892ac4ed7da455c535e6afb4cc551d654298bf28e</td>
+<td align="center">197dadeb35cd9ef3e3e37c5e71df062e8e940215a0c3ec9eb98c90d8e0d8cc0f</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Cubic_U</td>
-<td align="center">b686ec91cdb23969a791634b9691659b8b87d89b0e0f99fbd54eb861e06659ce</td>
+<td align="center">1b5accc5a1f31eac6da8c6c952b3608768d1267ecb21423b360541c3c817172c</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Spider_E</td>
-<td align="center">ecd054bfc9fe34241199681b40d42dd3f9dd8b06e74755ec680c6098a3f3aab8</td>
+<td align="center">4e5e00b4bc106a05ac72401960efffa0537f48b3922f781b52800857b2ad73e9</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Spider_J</td>
-<td align="center">2e7eb2d27db11ef97832ae3472930b4b1a95e6805a83eae9bbfe94ae35ee1a89</td>
+<td align="center">d131900dda23087a08c5fc9ea07bc9cad989fdbfe4c551b0c0096b46dd3f9834</td>
 </tr>
 <tr>
 <td align="center">New_3DS_Spider_U</td>
-<td align="center">c0478c1c7b5a82bdaf18b2cc2e892758082f29a62c7d7ea57f02b538976b6ac2</td>
+<td align="center">0c764dc9816e3cee588e99c12857c623d77f986f20ff6d550a86b54123a6c538</td>
 </tr>
 <tr>
 <td align="center">Old_3DS_Cubic_E</td>
