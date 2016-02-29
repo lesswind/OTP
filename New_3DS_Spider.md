@@ -30,7 +30,7 @@ This is a sub section of the main guide [here](https://plailect.github.io/OTP/).
 3. Copy all files from `New_3DS_Spider_[U/E/J]/Section_II/Copy_To_SD_Card/` to your SD card. Replace any existing files.
 1. Boot your 3DS into emuNAND using the CFW of your choice.
 2. **Make sure your wifi is on, you will not be able to toggle it in 2.1.**
-2. Using the CIA Manager of your choice of your choice, install TinyFormat.cia **on emuNAND**.
+2. Using the CIA Manager of your choice, install TinyFormat.cia **on emuNAND**.
 3. Open TinyFormat **on emuNAND**.
 4. Press (Y) to format emuNAND.
 5. Reboot back into emuNAND and complete initial setup *without* linking NNID.
